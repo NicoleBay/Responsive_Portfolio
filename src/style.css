@@ -24,14 +24,6 @@ h2 {
 h3 {
   font-size: 28px;
 }
-.text-style {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-}
 
 .button-links {
   display: flex;
@@ -63,15 +55,6 @@ h3 {
   display: block;
 }
 
-.about-me-para {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-me-para p {
-  margin: 10px;
-}
-
 .email-link {
   color: var(--primary-color);
   display: flex;
@@ -89,6 +72,11 @@ h3 {
   padding: 10px;
 }
 
+.custom-slide-bg {
+  background-color: var(--background-color);
+  padding: 40px;
+}
+
 .project-link {
   justify-content: center;
   border-radius: 4px;
@@ -96,11 +84,6 @@ h3 {
   text-decoration: none;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-}
-
-.mental-health {
-  height: 310px;
-  width: 95%;
 }
 
 @media (max-width: 576px) {
